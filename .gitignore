@@ -1,0 +1,80 @@
+## Ignore arquivos e pastas do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore arquivos do Rider
+.idea/
+
+## Build Results
+bin/
+obj/
+out/
+
+## Ignore pacotes NuGet restaurados
+packages/
+*.nupkg
+*.snupkg
+
+## Logs
+*.log
+
+## Configurações temporárias
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.swp
+*.swn
+
+## Arquivos de cache
+*.db
+*.sdf
+*.pidb
+*.mdb
+*.pdb
+*.cache
+
+## Arquivos de lock
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+## Arquivos do VS Code
+.vscode/
+
+## Arquivos de Teste e Coverage
+TestResults/
+*.coverage
+*.coveragexml
+*.codecoverage
+*.testsettings
+*.vsmdi
+*.psess
+
+## Arquivos do Azure Functions
+.local.settings.json
+
+## Arquivos do dotCover
+.idea/.dotCover
+
+## Arquivos do ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+## Arquivos do SonarQube
+.sonar/
+.scannerwork/
+
+## Arquivos gerados por ferramentas
+Generated_Code/
